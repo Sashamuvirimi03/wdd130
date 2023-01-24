@@ -54,3 +54,13 @@ header img{
 header{
     background-color: #ccc;
 }
+
+.colors{
+    background-color: maroon;
+    height: 400px;
+    width: 100%;
+}
+
+footer, #msg{
+    background-color: grey;
+}
