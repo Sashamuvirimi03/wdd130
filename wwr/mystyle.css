@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: green;
+  }
+  p {
+    margin: 35px;
+  }
+  
+  nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+p.a {
+    margin: 30px 0;
+  }
+  
+  p.b {
+    margin: 20px 0;
+  }
+  div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  }
+  
+  div.c {
+    text-align: justify;
+  }
+  #hero-msg, #msg{
+    text-align: center;
+  }
+  main{
+   text-align: center;
+  }
+ main img {
+    max-width: 300px;
+ }
+
+#hero-box img{width: 100%;}
+
+header img{
+    width: 70px;
+}
+header{
+    background-color: #ccc;
+}
