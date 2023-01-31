@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:ital,wght@1,300;1,400&family=Rock+Salt&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+  p {
+    margin: 35px;
+  }
+  
+  nav a:hover {
+    background-color: rgb(138, 120, 120);
+    color: #d9c2a3;
+}    
+p.a {
+    margin: 30px 0;
+  }
+  
+  p.b {
+    margin: 20px 0;
+  }
+  div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  }
+  
+  div.c {
+    text-align: justify;
+  }
+  #hero-msg, #msg{
+    text-align: center;
+  }
+  main{
+   text-align: center;
+  }
+ main img {
+    max-width: 300px;
+ }
+
+#hero-box img{width: 100%;}
+
+header img{
+    width: 70px;
+}
+header{
+    background-color: #ccc;
+}
+
+.colors{
+    background-color: rgb(180, 133, 133);
+    height: 400px;
+    width: 100%;
+}
+
+footer, #msg{
+    background-color: grey;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+                          
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+            
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+.book, .join {
+    background-color: #ccc;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #ccc;
+}
+main section img {
+    box-sizing: border-box;
+}
