@@ -101,8 +101,20 @@ nav a {
     border-radius: 5px;
 }
 .card-img {
-    border: 10px solid #cccc;
+    border: 10px solid #ccc;
 }
 main section img {
     box-sizing: border-box;
+}
+
+#msg{
+  color: white;
+}
+
+footer{
+  color: white;
+}
+
+.home-title{
+color: rgb(180, 133, 133); 
 }
