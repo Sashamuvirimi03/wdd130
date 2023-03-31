@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>foodlover's.com</title>
+</head>
+<style>
+    .box{
+        width: 60px;
+    }
+</style>
+
+<body>
+    <div id="content">
+        <header class="container">
+            <div class="logo"><img src="../images/FOOD LOVERS-logos.jpeg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="payment.html">Payment</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </nav>
+              
+        </header>
+        <main class="container"> 
+            <div class="banner-box">
+                <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_960_720.jpg" alt="" width="100%">
+
+              
+
+              <div class="home-grid">
+
+                <div class="float">
+                    <article class="card">
+     <img src="https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?b=1&s=170667a&w=0&k=20&c=YpiiIjJfRGC-xd7ZjJaWYI-zARdb9GMSPvpc-DKL-5I= " class="home-left-img2  " alt="">
+    
+   
+     <footer class="footer-color">
+        <small>Easter promotion coming soon!</small>
+  
+     </footer>
+    </article>
+                  </div>
+
+              <div class="left-para">
+                    <h1 class="home-headline-12">Tip!</h1>
+                    <P class="home-pagraph-1"> If you want to order or make payments, simply fill the form below by select the type of food you want. N.b we allow credit cards, netcash,Ecocash and paynow </P>
+                       
+                </div> 
+              
+           
+                    
+                <div id="feedback"></div>
+                <form class="formss" action="/my-handling-form-page" method="post">
+                    <ul>
+                     <li>
+                       <label for="name">First name:</label>
+                       <input type="text" id="name" name="user_name" placeholder="first name" />
+                     </li>
+                     <li>
+                       <label for="mail">Last Name:</label>
+                       <input type="text" id="mail" name=""  placeholder="last name" />
+                     </li>
+                     <li>
+                      <li>
+                        <label for="name">Home address:</label>
+                        <input type="text" id="name" name="user_name" placeholder="home address" />
+                      </li>
+                      <li>
+                        <label for="mail">ID Number:</label>
+                        <input type="text" id="mail" name=""  placeholder="ID number" />
+                      </li>
+                      <li>
+        
+                        <li class="prices">
+                          <small>cakes</small><input type="radio" height="3px" > <small>slice:</small><input type="number" class="box" id="box1" width="50px"   > <br>
+                          <small>chicken</small><input type="radio" height="3px"  > <small> per piecer:</small><input type="number" class="box"  id="box2" width="50px" >  <br>
+                          <small>sea food</small><input type="radio" height="3px"  > <small> per plate:</small><input type="number" class="box" id="box3"  width="50px" > 
+                         
+                         </li>
+                        <li>
+                          <label for="name">Ecocash or Netcash Number:</label>
+                          <input type="text" id="name" name="user_name" placeholder="Eco or netcash No:" />
+                        </li>
+                        <li>
+                          <label for="email">Verification:</label>
+                          <input type="text" id="email" name=""  placeholder="Verification code" />
+                        </li>
+                        <li>
+                        
+                      
+                       <label for="massage"> pay with:</label>
+                       <button type="submit">Pay with paypal</button>
+                     </li>
+                     <li class="button">
+                        <button type="submit">submit</button>
+                      </li>
+
+                    </div>
+                     
+               </form>
+        
+            
+        
+               <script>
+                // get the feedback div element so we can do something with it.
+                const feedbackElement = document.getElementById('feedback');
+                // get the form so we can read what was entered in it.
+                const formElement = document.forms[0];
+                // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                formElement.addEventListener('submit', function(e) {
+                    // stop the form from doing the default action
+                    e.preventDefault();
+                    // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                    // make the feedback element visible.
+                    feedbackElement.style.display = "block";
+                    // add a class to move everything down so our message doesn't cover it.
+                    document.body.classList.toggle('moveDown');
+                });
+            </script>
+       
+                </section>
+                
+
+
+
+            </div>
+
+        </main>
+        <footer>
+
+               
+                <h3>FOLLOW US ON</h3>
+                <div class="social">
+                  <a href="https://twitter.com/login"  target="blank"> <img src="https://cdn.glitch.com/7fd19c2e-25e2-4522-872d-52071c0695cc%2Ftwitter.png?v=1633346625395" width="70px" > </a> 
+                <a href="https://www.facebook.com/#!"  target="blank"><img src="https://cdn.glitch.com/7fd19c2e-25e2-4522-872d-52071c0695cc%2Ffacebook%20(1).png?v=1633346637806"    width="70px" target="blank"> </a> 
+                
+                <a href="https://www.youtube.com/?gl=ES" target="blank"><img src="https://cdn.glitch.com/7fd19c2e-25e2-4522-872d-52071c0695cc%2Fyoutube.png?v=1633346614795" width="70px"  > </a> 
+                </div>
+                <p>&copy; 2023FOODLOVER'S.com - SASHA MUDIWANASHE MUVIRIMI - WDD130-80</p>
+        </footer>
+         
+    </div>
+    
+</body>
+</html>
