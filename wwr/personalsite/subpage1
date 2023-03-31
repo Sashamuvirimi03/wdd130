@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <title>foodlover's</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    <body>
+      <div id="content">
+        <header class="container">
+            <div class="logo">  <img src="https://cdn.glitch.me/bafef8bc-7e2e-44a9-979f-c24e8dbd62b2%2Fcooltext396588228232252.png?v=1635577332310" alt="Logo image"  ><!-- logo will go here --></div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="make-payment.html">Payments</a></li>
+                  <li><a href="coctact-us.html">contact us</a></li>
+                 
+                </ul>
+            </nav>
+        </header>
+      <main class="container">
+        <div class="banner-box">
+          <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_960_720.jpg"  class="back-img" width="100%">
+          
+          <div class="centered">CONTACT US</div>
+        
+        </div>
+        <div class="home-grid">
+          
+          <div class="home-headline-4">
+          <h3 class="home-headline-4">Join us for an unforgettable dining experience! Our restaurant offers exceptional cuisine, attentive service, and a warm atmosphere. Browse our menu and make a reservation today. We can't wait to welcome you! </h3>
+          <img src="https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?b=1&s=170667a&w=0&k=20&c=YpiiIjJfRGC-xd7ZjJaWYI-zARdb9GMSPvpc-DKL-5I= " class="home-left-img2" width="100%">
+        </div>
+          <div class="right-contact"> 
+            <h3>For more infomation & Our location:</h3>
+            <p>WhatsApp: +263 718 283 455</p>
+
+            <p> Email:<a href= "mailto:sashamuvirimi03@gmail.com">easyshopping@gmail.com</a></p>
+            <p>OR Visit our company at joina city building third floor room No15</p>
+          </div>
+          <div Class="massage-us">
+            <p class="back-p">Any question contact  our support team:</p>
+            <form action="">
+             
+          <textarea name="" id="" cols="30" rows="10" placeholder="massage..."></textarea><br>
+          <button class="btn">send</button>
+          
+        </form>
+        </div>
+           
+
+        </div>
+      </main>
+      
+      <footer >
+      
+        
+        <div class="social">
+       
+          <a href="https://www.facebook.com/#!"  target="blank"><img src="https://cdn.glitch.com/7fd19c2e-25e2-4522-872d-52071c0695cc%2Ffacebook%20(1).png?v=1633346637806"    width="70px" target="blank"> </a> 
+         <a href="https://twitter.com/login"  target="blank"> <img src="https://cdn.glitch.com/7fd19c2e-25e2-4522-872d-52071c0695cc%2Ftwitter.png?v=1633346625395" width="70px" > </a> 
+          <a href="https://www.youtube.com/?gl=ES" target="blank"><img src="https://cdn.glitch.com/7fd19c2e-25e2-4522-872d-52071c0695cc%2Fyoutube.png?v=1633346614795" width="70px"  > </a> 
+          <p>&copy; 2023FOOD LOVER'S - SASHA MUDIWANASHE MUVIRIMI - WDD130-80</p>
+        </div>
+      
+      </footer>
+          
+      </div>
+      
+    </body>
+    
+    </html>
